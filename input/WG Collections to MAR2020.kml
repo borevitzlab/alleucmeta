@@ -1,0 +1,2256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>White gum to MAR2020.csv</name>
+	<open>1</open>
+	<Schema name="White gum to MAR2020" id="S_White_gum_to_MAR2020_ISDDS">
+		<SimpleField type="int" name="NE_Number"><displayName>&lt;b&gt;NE Number&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Species"><displayName>&lt;b&gt;Species&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Latitude"><displayName>&lt;b&gt;Latitude&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Longitude"><displayName>&lt;b&gt;Longitude&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Collector_Name"><displayName>&lt;b&gt;Collector Name&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NE Number</b></td><td>$[White gum to MAR2020/NE_Number]</td></tr>
+  <tr><td><b>Species</b></td><td>$[White gum to MAR2020/Species]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[White gum to MAR2020/Latitude]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[White gum to MAR2020/Longitude]</td></tr>
+  <tr><td><b>Collector Name</b></td><td>$[White gum to MAR2020/Collector_Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NE Number</b></td><td>$[White gum to MAR2020/NE_Number]</td></tr>
+  <tr><td><b>Species</b></td><td>$[White gum to MAR2020/Species]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[White gum to MAR2020/Latitude]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[White gum to MAR2020/Longitude]</td></tr>
+  <tr><td><b>Collector Name</b></td><td>$[White gum to MAR2020/Collector_Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>White gum to MAR2020</name>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107558</SimpleData>
+					<SimpleData name="Species">Eucalyptus nobilis</SimpleData>
+					<SimpleData name="Latitude">-30.4048</SimpleData>
+					<SimpleData name="Longitude">151.631</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.631417,-30.404806,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107559</SimpleData>
+					<SimpleData name="Species">Eucalyptus nobilis</SimpleData>
+					<SimpleData name="Latitude">-30.4047</SimpleData>
+					<SimpleData name="Longitude">151.631</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.631472,-30.40472199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107942</SimpleData>
+					<SimpleData name="Species">Eucalyptus nobilis</SimpleData>
+					<SimpleData name="Latitude">-30.4084</SimpleData>
+					<SimpleData name="Longitude">151.642</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.642056,-30.408389,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107949</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-30.4262</SimpleData>
+					<SimpleData name="Longitude">151.614</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.6142499999999,-30.426167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107950</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-30.4271</SimpleData>
+					<SimpleData name="Longitude">151.615</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.615278,-30.427139,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107951</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-30.4275</SimpleData>
+					<SimpleData name="Longitude">151.616</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.615583,-30.427528,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107958</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-31.0517</SimpleData>
+					<SimpleData name="Longitude">151.765</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.764972,-31.05166700000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107959</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-31.052</SimpleData>
+					<SimpleData name="Longitude">151.762</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.762278,-31.05197200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107960</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-31.053</SimpleData>
+					<SimpleData name="Longitude">151.762</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.762361,-31.05302800000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107961</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-31.0534</SimpleData>
+					<SimpleData name="Longitude">151.759</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.758944,-31.05341699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107962</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-30.144</SimpleData>
+					<SimpleData name="Longitude">151.586</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.585917,-30.144028,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108203</SimpleData>
+					<SimpleData name="Species">Eucalyptus rubida</SimpleData>
+					<SimpleData name="Latitude">-29.6418</SimpleData>
+					<SimpleData name="Longitude">151.822</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.821847,-29.64183099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108205</SimpleData>
+					<SimpleData name="Species">Eucalyptus rubida</SimpleData>
+					<SimpleData name="Latitude">-29.642</SimpleData>
+					<SimpleData name="Longitude">151.822</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.821658,-29.64195799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108208</SimpleData>
+					<SimpleData name="Species">Eucalyptus rubida</SimpleData>
+					<SimpleData name="Latitude">-29.6417</SimpleData>
+					<SimpleData name="Longitude">151.822</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.822375,-29.64165299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108209</SimpleData>
+					<SimpleData name="Species">Eucalyptus rubida</SimpleData>
+					<SimpleData name="Latitude">-29.6421</SimpleData>
+					<SimpleData name="Longitude">151.821</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.821031,-29.64213599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108210</SimpleData>
+					<SimpleData name="Species">Eucalyptus rubida</SimpleData>
+					<SimpleData name="Latitude">-29.6418</SimpleData>
+					<SimpleData name="Longitude">151.821</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.821275,-29.64175599999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108211</SimpleData>
+					<SimpleData name="Species">Eucalyptus rubida</SimpleData>
+					<SimpleData name="Latitude">-29.6414</SimpleData>
+					<SimpleData name="Longitude">151.822</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.822475,-29.64139700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108224</SimpleData>
+					<SimpleData name="Species">Eucalyptus rubida</SimpleData>
+					<SimpleData name="Latitude">-29.6679</SimpleData>
+					<SimpleData name="Longitude">151.645</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.64515,-29.66792500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108227</SimpleData>
+					<SimpleData name="Species">Eucalyptus rubida</SimpleData>
+					<SimpleData name="Latitude">-29.6682</SimpleData>
+					<SimpleData name="Longitude">151.646</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.645617,-29.66824700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108230</SimpleData>
+					<SimpleData name="Species">Eucalyptus rubida</SimpleData>
+					<SimpleData name="Latitude">-29.6667</SimpleData>
+					<SimpleData name="Longitude">151.645</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.645447,-29.666653,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108324</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-29.6667</SimpleData>
+					<SimpleData name="Longitude">151.645</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.644981,-29.66665000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108325</SimpleData>
+					<SimpleData name="Species">Eucalyptus rubida</SimpleData>
+					<SimpleData name="Latitude">-29.6672</SimpleData>
+					<SimpleData name="Longitude">151.645</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.644689,-29.667225,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108326</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-29.6672</SimpleData>
+					<SimpleData name="Longitude">151.644</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.644447,-29.667233,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108327</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-29.6669</SimpleData>
+					<SimpleData name="Longitude">151.644</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.6439440000001,-29.666889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108885</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.484</SimpleData>
+					<SimpleData name="Longitude">151.639</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.638894,-30.48394999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108886</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4836</SimpleData>
+					<SimpleData name="Longitude">151.639</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.638758,-30.48362499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108887</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4845</SimpleData>
+					<SimpleData name="Longitude">151.64</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.64035,-30.484497,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108888</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4846</SimpleData>
+					<SimpleData name="Longitude">151.64</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.640378,-30.48455799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108889</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.484</SimpleData>
+					<SimpleData name="Longitude">151.64</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.640347,-30.48402799999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108890</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4851</SimpleData>
+					<SimpleData name="Longitude">151.642</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.642344,-30.485072,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108891</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4852</SimpleData>
+					<SimpleData name="Longitude">151.643</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.6427,-30.48522800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108892</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4851</SimpleData>
+					<SimpleData name="Longitude">151.642</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.641789,-30.48508899999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108893</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4849</SimpleData>
+					<SimpleData name="Longitude">151.643</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.642619,-30.48489699999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108894</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4849</SimpleData>
+					<SimpleData name="Longitude">151.643</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.642797,-30.48491400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108895</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4852</SimpleData>
+					<SimpleData name="Longitude">151.643</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.643347,-30.48515800000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108896</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4857</SimpleData>
+					<SimpleData name="Longitude">151.644</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.643642,-30.48568299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108897</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4857</SimpleData>
+					<SimpleData name="Longitude">151.644</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.643531,-30.48567500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108898</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4831</SimpleData>
+					<SimpleData name="Longitude">151.645</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.644697,-30.48310300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108899</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4838</SimpleData>
+					<SimpleData name="Longitude">151.645</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.6450499999999,-30.48378600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108900</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4838</SimpleData>
+					<SimpleData name="Longitude">151.645</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.644975,-30.48378899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108901</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.482</SimpleData>
+					<SimpleData name="Longitude">151.645</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.64465,-30.48200600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108902</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.483</SimpleData>
+					<SimpleData name="Longitude">151.646</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.646194,-30.48296099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108903</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4833</SimpleData>
+					<SimpleData name="Longitude">151.646</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.646158,-30.48328599999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108904</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.485</SimpleData>
+					<SimpleData name="Longitude">151.645</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.644547,-30.48502799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108905</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4848</SimpleData>
+					<SimpleData name="Longitude">151.644</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.644242,-30.48475600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108906</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4849</SimpleData>
+					<SimpleData name="Longitude">151.644</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.644314,-30.48491400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108907</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4905</SimpleData>
+					<SimpleData name="Longitude">151.643</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.642594,-30.49047799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108908</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4886</SimpleData>
+					<SimpleData name="Longitude">151.641</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.641294,-30.488622,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108909</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4885</SimpleData>
+					<SimpleData name="Longitude">151.641</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.641258,-30.48853600000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108910</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4873</SimpleData>
+					<SimpleData name="Longitude">151.642</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.642272,-30.48730599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108911</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4942</SimpleData>
+					<SimpleData name="Longitude">151.64</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.639883,-30.49424400000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108912</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4869</SimpleData>
+					<SimpleData name="Longitude">151.737</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.736611,-30.48691700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108913</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4874</SimpleData>
+					<SimpleData name="Longitude">151.737</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.736583,-30.487389,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109126</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4906</SimpleData>
+					<SimpleData name="Longitude">151.637</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.637306,-30.49055600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109127</SimpleData>
+					<SimpleData name="Species">Eucalyptus nobilis</SimpleData>
+					<SimpleData name="Latitude">-30.3546</SimpleData>
+					<SimpleData name="Longitude">152.005</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>152.00475,-30.35463899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109129</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-30.3542</SimpleData>
+					<SimpleData name="Longitude">152.003</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>152.003194,-30.354194,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109130</SimpleData>
+					<SimpleData name="Species">Eucalyptus nobilis</SimpleData>
+					<SimpleData name="Latitude">-30.4865</SimpleData>
+					<SimpleData name="Longitude">152.328</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>152.328306,-30.486528,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109131</SimpleData>
+					<SimpleData name="Species">Eucalyptus</SimpleData>
+					<SimpleData name="Latitude">-30.5034</SimpleData>
+					<SimpleData name="Longitude">152.38</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>152.3796670000001,-30.50341700000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109132</SimpleData>
+					<SimpleData name="Species">Eucalyptus</SimpleData>
+					<SimpleData name="Latitude">-30.5035</SimpleData>
+					<SimpleData name="Longitude">152.38</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>152.379722,-30.503472,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109133</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4775</SimpleData>
+					<SimpleData name="Longitude">151.637</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.637444,-30.47747200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109134</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4768</SimpleData>
+					<SimpleData name="Longitude">151.637</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.636722,-30.47683299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109135</SimpleData>
+					<SimpleData name="Species">Eucalyptus</SimpleData>
+					<SimpleData name="Latitude">-30.4772</SimpleData>
+					<SimpleData name="Longitude">151.638</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.637639,-30.477194,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109136</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4824</SimpleData>
+					<SimpleData name="Longitude">151.638</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.638306,-30.48244399999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109137</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4783</SimpleData>
+					<SimpleData name="Longitude">151.636</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.635778,-30.47830600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109138</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-30.4792</SimpleData>
+					<SimpleData name="Longitude">151.635</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.634722,-30.47916699999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109139</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-30.4798</SimpleData>
+					<SimpleData name="Longitude">151.635</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.634639,-30.47977800000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109140</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4787</SimpleData>
+					<SimpleData name="Longitude">151.636</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.636167,-30.478667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107886</SimpleData>
+					<SimpleData name="Species"></SimpleData>
+					<SimpleData name="Latitude">-30.4258</SimpleData>
+					<SimpleData name="Longitude">151.615</SimpleData>
+					<SimpleData name="Collector_Name">B.J. Abernethy</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.614611,-30.42574999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107901</SimpleData>
+					<SimpleData name="Species"></SimpleData>
+					<SimpleData name="Latitude">-31.0526</SimpleData>
+					<SimpleData name="Longitude">151.762</SimpleData>
+					<SimpleData name="Collector_Name">B.J. Abernethy</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.761972,-31.05255600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107902</SimpleData>
+					<SimpleData name="Species"></SimpleData>
+					<SimpleData name="Latitude">-31.052</SimpleData>
+					<SimpleData name="Longitude">151.765</SimpleData>
+					<SimpleData name="Collector_Name">B.J. Abernethy</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.765083,-31.05200600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107903</SimpleData>
+					<SimpleData name="Species"></SimpleData>
+					<SimpleData name="Latitude">-31.0519</SimpleData>
+					<SimpleData name="Longitude">151.765</SimpleData>
+					<SimpleData name="Collector_Name">B.J. Abernethy</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.764667,-31.051917,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107904</SimpleData>
+					<SimpleData name="Species"></SimpleData>
+					<SimpleData name="Latitude">-31.0532</SimpleData>
+					<SimpleData name="Longitude">151.759</SimpleData>
+					<SimpleData name="Collector_Name">B.J. Abernethy</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.758528,-31.05316700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107906</SimpleData>
+					<SimpleData name="Species"></SimpleData>
+					<SimpleData name="Latitude">-30.1437</SimpleData>
+					<SimpleData name="Longitude">151.586</SimpleData>
+					<SimpleData name="Collector_Name">B.J. Abernethy</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.586111,-30.143722,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">107909</SimpleData>
+					<SimpleData name="Species"></SimpleData>
+					<SimpleData name="Latitude">-30.4224</SimpleData>
+					<SimpleData name="Longitude">151.647</SimpleData>
+					<SimpleData name="Collector_Name">B.J. Abernethy</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.647306,-30.422361,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108296</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4266</SimpleData>
+					<SimpleData name="Longitude">151.615</SimpleData>
+					<SimpleData name="Collector_Name">G. Cowell</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.6155,-30.42655600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108301</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-30.4229</SimpleData>
+					<SimpleData name="Longitude">151.647</SimpleData>
+					<SimpleData name="Collector_Name">G. Cowell</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.647194,-30.42291700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108342</SimpleData>
+					<SimpleData name="Species">Eucalyptus</SimpleData>
+					<SimpleData name="Latitude">-31.0519</SimpleData>
+					<SimpleData name="Longitude">151.765</SimpleData>
+					<SimpleData name="Collector_Name">G. Cowell</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.765333,-31.05194399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108343</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-31.0521</SimpleData>
+					<SimpleData name="Longitude">151.764</SimpleData>
+					<SimpleData name="Collector_Name">G. Cowell</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.764361,-31.05205599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108344</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-31.052</SimpleData>
+					<SimpleData name="Longitude">151.764</SimpleData>
+					<SimpleData name="Collector_Name">G. Cowell</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.763944,-31.05199999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108345</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-31.0531</SimpleData>
+					<SimpleData name="Longitude">151.762</SimpleData>
+					<SimpleData name="Collector_Name">G. Cowell</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.762472,-31.05313899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108346</SimpleData>
+					<SimpleData name="Species">Eucalyptus</SimpleData>
+					<SimpleData name="Latitude">-30.1436</SimpleData>
+					<SimpleData name="Longitude">151.587</SimpleData>
+					<SimpleData name="Collector_Name">G. Cowell</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.586972,-30.14355599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108501</SimpleData>
+					<SimpleData name="Species">Eucalyptus</SimpleData>
+					<SimpleData name="Latitude">-30.4263</SimpleData>
+					<SimpleData name="Longitude">151.615</SimpleData>
+					<SimpleData name="Collector_Name">Z.B. Lewis</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.615333,-30.426306,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108509</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-30.423</SimpleData>
+					<SimpleData name="Longitude">151.647</SimpleData>
+					<SimpleData name="Collector_Name">Z.B. Lewis</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.647361,-30.42300000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108510</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-31.0514</SimpleData>
+					<SimpleData name="Longitude">151.767</SimpleData>
+					<SimpleData name="Collector_Name">Z.B. Lewis</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.7665,-31.05141700000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108511</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-31.0522</SimpleData>
+					<SimpleData name="Longitude">151.767</SimpleData>
+					<SimpleData name="Collector_Name">Z.B. Lewis</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.7665,-31.052167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108512</SimpleData>
+					<SimpleData name="Species">Eucalyptus</SimpleData>
+					<SimpleData name="Latitude">-31.0524</SimpleData>
+					<SimpleData name="Longitude">151.762</SimpleData>
+					<SimpleData name="Collector_Name">Z.B. Lewis</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.762333,-31.05236099999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108513</SimpleData>
+					<SimpleData name="Species">Eucalyptus</SimpleData>
+					<SimpleData name="Latitude">-31.0538</SimpleData>
+					<SimpleData name="Longitude">151.759</SimpleData>
+					<SimpleData name="Collector_Name">Z.B. Lewis</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.758806,-31.053806,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108514</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-30.1434</SimpleData>
+					<SimpleData name="Longitude">151.586</SimpleData>
+					<SimpleData name="Collector_Name">Z.B. Lewis</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.586472,-30.14338900000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">106899</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.489</SimpleData>
+					<SimpleData name="Longitude">151.642</SimpleData>
+					<SimpleData name="Collector_Name">J.J. Bruhl</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.642083,-30.489,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108970</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-35.4593</SimpleData>
+					<SimpleData name="Longitude">148.898</SimpleData>
+					<SimpleData name="Collector_Name">J.J. Bruhl</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.89775,-35.45930600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108971</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-35.4588</SimpleData>
+					<SimpleData name="Longitude">148.896</SimpleData>
+					<SimpleData name="Collector_Name">J.J. Bruhl</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.896167,-35.458806,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108972</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-35.4591</SimpleData>
+					<SimpleData name="Longitude">148.894</SimpleData>
+					<SimpleData name="Collector_Name">J.J. Bruhl</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.894056,-35.459056,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108973</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-35.4584</SimpleData>
+					<SimpleData name="Longitude">148.892</SimpleData>
+					<SimpleData name="Collector_Name">J.J. Bruhl</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.891806,-35.45838900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108976</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-35.4568</SimpleData>
+					<SimpleData name="Longitude">148.89</SimpleData>
+					<SimpleData name="Collector_Name">J.J. Bruhl</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.889528,-35.45677799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">108977</SimpleData>
+					<SimpleData name="Species">Eucalyptus rubida</SimpleData>
+					<SimpleData name="Latitude">-35.4568</SimpleData>
+					<SimpleData name="Longitude">149.011</SimpleData>
+					<SimpleData name="Collector_Name">J.J. Bruhl</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.011139,-35.45677799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109152</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-30.4867</SimpleData>
+					<SimpleData name="Longitude">151.759</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.759019,-30.48669400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109153</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-30.4867</SimpleData>
+					<SimpleData name="Longitude">151.759</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.759019,-30.48669400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109158</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4821</SimpleData>
+					<SimpleData name="Longitude">151.64</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.63975,-30.48205599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109159</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4819</SimpleData>
+					<SimpleData name="Longitude">151.64</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.640333,-30.481889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109160</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4818</SimpleData>
+					<SimpleData name="Longitude">151.641</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.640667,-30.48180600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109161</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4821</SimpleData>
+					<SimpleData name="Longitude">151.64</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.640417,-30.482111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109162</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4808</SimpleData>
+					<SimpleData name="Longitude">151.64</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.639639,-30.480806,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109163</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4806</SimpleData>
+					<SimpleData name="Longitude">151.639</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.638972,-30.48061100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109164</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4807</SimpleData>
+					<SimpleData name="Longitude">151.64</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.639528,-30.48069400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109165</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4814</SimpleData>
+					<SimpleData name="Longitude">151.641</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.640528,-30.48144400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109166</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4818</SimpleData>
+					<SimpleData name="Longitude">151.641</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.641389,-30.48175000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109167</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.483</SimpleData>
+					<SimpleData name="Longitude">151.638</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.638472,-30.48297199999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109664</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-32.7527</SimpleData>
+					<SimpleData name="Longitude">150.074</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>150.07375,-32.75272222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109665</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-32.7345</SimpleData>
+					<SimpleData name="Longitude">150.126</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>150.1258611,-32.73452778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109666</SimpleData>
+					<SimpleData name="Species">Eucalyptus macrorhyncha</SimpleData>
+					<SimpleData name="Latitude">-32.7346</SimpleData>
+					<SimpleData name="Longitude">150.126</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>150.1259167,-32.73463888999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109667</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana subsp. dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-33.3563</SimpleData>
+					<SimpleData name="Longitude">148.96</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.9599722,-33.35625,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109668</SimpleData>
+					<SimpleData name="Species">Eucalyptus canobolensis</SimpleData>
+					<SimpleData name="Latitude">-33.355</SimpleData>
+					<SimpleData name="Longitude">148.96</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.9598056,-33.35497222000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109669</SimpleData>
+					<SimpleData name="Species">Eucalyptus canobolensis</SimpleData>
+					<SimpleData name="Latitude">-33.3541</SimpleData>
+					<SimpleData name="Longitude">148.959</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.9593333000001,-33.35408333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109670</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana subsp. dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-33.3596</SimpleData>
+					<SimpleData name="Longitude">148.973</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.9733056,-33.35955555999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109671</SimpleData>
+					<SimpleData name="Species">Eucalyptus canobolensis</SimpleData>
+					<SimpleData name="Latitude">-33.3599</SimpleData>
+					<SimpleData name="Longitude">148.973</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.9730278,-33.35988889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109672</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana subsp. dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-33.3495</SimpleData>
+					<SimpleData name="Longitude">148.978</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.9779722,-33.34947222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109673</SimpleData>
+					<SimpleData name="Species">Eucalyptus canobolensis</SimpleData>
+					<SimpleData name="Latitude">-33.3491</SimpleData>
+					<SimpleData name="Longitude">148.977</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.9768889,-33.34905556000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109674</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-33.3422</SimpleData>
+					<SimpleData name="Longitude">149.016</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.0155833,-33.34219444000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109675</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana subsp. dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-33.3422</SimpleData>
+					<SimpleData name="Longitude">149.017</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.01675,-33.34216666999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109676</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana subsp. dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-33.3421</SimpleData>
+					<SimpleData name="Longitude">149.017</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.0169167000001,-33.34208333000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109677</SimpleData>
+					<SimpleData name="Species">Eucalyptus canobolensis</SimpleData>
+					<SimpleData name="Latitude">-33.339</SimpleData>
+					<SimpleData name="Longitude">149.006</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.0060556,-33.33897222000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109678</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana subsp. dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-33.3391</SimpleData>
+					<SimpleData name="Longitude">149.006</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.0061944,-33.33911111000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109679</SimpleData>
+					<SimpleData name="Species">Eucalyptus canobolensis</SimpleData>
+					<SimpleData name="Latitude">-33.3381</SimpleData>
+					<SimpleData name="Longitude">148.977</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.9769722,-33.33813889000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109680</SimpleData>
+					<SimpleData name="Species">Eucalyptus canobolensis</SimpleData>
+					<SimpleData name="Latitude">-33.2849</SimpleData>
+					<SimpleData name="Longitude">149.014</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.0145,-33.28494444000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109681</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-33.2845</SimpleData>
+					<SimpleData name="Longitude">149.015</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.0148056,-33.28452777999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109682</SimpleData>
+					<SimpleData name="Species">Eucalyptus tereticornis</SimpleData>
+					<SimpleData name="Latitude">-33.2846</SimpleData>
+					<SimpleData name="Longitude">149.014</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.0136389,-33.28461111000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109683</SimpleData>
+					<SimpleData name="Species">Eucalyptus canobolensis</SimpleData>
+					<SimpleData name="Latitude">-33.2804</SimpleData>
+					<SimpleData name="Longitude">148.99</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.9899167,-33.28041667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109684</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-33.2808</SimpleData>
+					<SimpleData name="Longitude">148.99</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.9901667000001,-33.28083333000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109685</SimpleData>
+					<SimpleData name="Species">Eucalyptus rubida subsp. rubida</SimpleData>
+					<SimpleData name="Latitude">-33.2581</SimpleData>
+					<SimpleData name="Longitude">149.016</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.0161667,-33.25813889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109686</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-33.2579</SimpleData>
+					<SimpleData name="Longitude">149.015</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.0147778,-33.25788889000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109687</SimpleData>
+					<SimpleData name="Species">Eucalyptus rubida subsp. rubida</SimpleData>
+					<SimpleData name="Latitude">-33.2347</SimpleData>
+					<SimpleData name="Longitude">149.132</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.1324444,-33.23474999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109688</SimpleData>
+					<SimpleData name="Species">Eucalyptus rubida subsp. rubida</SimpleData>
+					<SimpleData name="Latitude">-33.2351</SimpleData>
+					<SimpleData name="Longitude">149.133</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.1326389,-33.23511110999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109689</SimpleData>
+					<SimpleData name="Species">Eucalyptus rubida subsp. rubida</SimpleData>
+					<SimpleData name="Latitude">-33.2134</SimpleData>
+					<SimpleData name="Longitude">149.137</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.1365,-33.21336111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109690</SimpleData>
+					<SimpleData name="Species">Eucalyptus rubida subsp. rubida</SimpleData>
+					<SimpleData name="Latitude">-33.2073</SimpleData>
+					<SimpleData name="Longitude">149.131</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.1305278,-33.20727778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109691</SimpleData>
+					<SimpleData name="Species">Eucalyptus rubida subsp. rubida</SimpleData>
+					<SimpleData name="Latitude">-33.5047</SimpleData>
+					<SimpleData name="Longitude">149.132</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.1322778,-33.50472221999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109692</SimpleData>
+					<SimpleData name="Species">Eucalyptus canobolensis</SimpleData>
+					<SimpleData name="Latitude">-33.4264</SimpleData>
+					<SimpleData name="Longitude">148.97</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.9699722,-33.42641667000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109693</SimpleData>
+					<SimpleData name="Species">Eucalyptus canobolensis</SimpleData>
+					<SimpleData name="Latitude">-33.4225</SimpleData>
+					<SimpleData name="Longitude">148.972</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.9715833,-33.42250000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109694</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana subsp. dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-33.3827</SimpleData>
+					<SimpleData name="Longitude">149.044</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.04375,-33.38272222000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109695</SimpleData>
+					<SimpleData name="Species">Eucalyptus canobolensis</SimpleData>
+					<SimpleData name="Latitude">-33.3284</SimpleData>
+					<SimpleData name="Longitude">149.083</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.0833333,-33.32836111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109696</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana subsp. dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-33.3285</SimpleData>
+					<SimpleData name="Longitude">149.083</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.0833361,-33.32847222000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109698</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-33.3297</SimpleData>
+					<SimpleData name="Longitude">149.083</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.0829721999999,-33.32974999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109699</SimpleData>
+					<SimpleData name="Species">Eucalyptus canobolensis</SimpleData>
+					<SimpleData name="Latitude">-33.3171</SimpleData>
+					<SimpleData name="Longitude">149.103</SimpleData>
+					<SimpleData name="Collector_Name">D.D. Andrew</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>149.1029722,-33.31708333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109717</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-30.4249</SimpleData>
+					<SimpleData name="Longitude">151.637</SimpleData>
+					<SimpleData name="Collector_Name">L.I. Buchan Rivas</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.6366667,-30.42491667000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109718</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4252</SimpleData>
+					<SimpleData name="Longitude">151.638</SimpleData>
+					<SimpleData name="Collector_Name">S. Porter</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.6379722,-30.42519443999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109719</SimpleData>
+					<SimpleData name="Species">Eucalyptus viminalis</SimpleData>
+					<SimpleData name="Latitude">-30.4285</SimpleData>
+					<SimpleData name="Longitude">151.636</SimpleData>
+					<SimpleData name="Collector_Name">S. Porter</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.6360278,-30.42852778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_White_gum_to_MAR2020_ISDDS">
+					<SimpleData name="NE_Number">109727</SimpleData>
+					<SimpleData name="Species">Eucalyptus dalrympleana</SimpleData>
+					<SimpleData name="Latitude">-30.6283</SimpleData>
+					<SimpleData name="Longitude">151.472</SimpleData>
+					<SimpleData name="Collector_Name">J. Webster-Cran</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>151.4719444,-30.62833333000001,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
