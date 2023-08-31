@@ -1,0 +1,54 @@
+from collections import defaultdict
+import pandas as pd
+
+samp2fastqs = defaultdict(list)
+for row in pd.read_table("dieback_only.tsv").itertuples():
+    if not pd.isna(row.read1):
+        samp2fastqs[row.sample].append(row.read1)
+    if not pd.isna(row.read2):
+        samp2fastqs[row.sample].append(row.read2)
+    if not pd.isna(row.interleaved):
+        samp2fastqs[row.sample].append(row.interleaved)
+
+rule mashdist:
+    input:
+        expand("tmp/{sample}.msh", sample=samp2fastqs)
+    output:
+        "distances.tsv"
+    log:
+        "distances.tsv.log"
+    #resources: runtime=120, mem=32G
+    conda: "env.yml"
+    threads: 48
+    shell:
+        "mash dist"
+        "   -p {threads}"
+        "   -t" # tabular format
+        "   {input}" # needs input twice
+        " >{output}"
+        " 2>{log}"
+
+
+rule mashsketch:
+    input:
+        lambda wc: samp2fastqs[wc.sample]
+    output:
+        "tmp/{sample}.msh"
+    log:
+        "tmp/{sample}.msh.log"
+    #resources: runtime=120, mem=16G
+    threads: 2
+    conda: "env.yml"
+    params:
+        ksize=21,
+        sketchsize=10000,
+    shell:
+        " mash sketch"
+        "   -k {params.ksize}"
+        "   -s {params.sketchsize}"
+        "   -p {threads}"
+        "   -o {output}"
+        "   {input}"
+        " >{log} 2>&1"
+
+
