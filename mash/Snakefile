@@ -17,38 +17,43 @@ rule mashdist:
         "distances.tsv"
     log:
         "distances.tsv.log"
-    #resources: runtime=120, mem=32G
     conda: "env.yml"
     threads: 48
     shell:
-        "mash dist"
+        "mash triangle"
         "   -p {threads}"
-        "   -t" # tabular format
+        "   -E"
         "   {input}" # needs input twice
         " >{output}"
         " 2>{log}"
 
 
-rule mashsketch:
+rule samplefile:
     input:
         lambda wc: samp2fastqs[wc.sample]
+    output:
+        temp(pipe("tmp/{sample}.fastq.gz"))
+    shell:
+        "cat {input} > {output}"
+
+rule mashsketch:
+    input:
+        "tmp/{sample}.fastq.gz"
     output:
         "tmp/{sample}.msh"
     log:
         "tmp/{sample}.msh.log"
-    #resources: runtime=120, mem=16G
-    threads: 2
+    threads: 1
     conda: "env.yml"
     params:
         ksize=21,
         sketchsize=10000,
     shell:
-        " mash sketch"
+        "mash sketch"
         "   -k {params.ksize}"
         "   -s {params.sketchsize}"
+        "   -r -m 2 -g 600000000"
         "   -p {threads}"
         "   -o {output}"
         "   {input}"
         " >{log} 2>&1"
-
-
